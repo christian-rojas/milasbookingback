@@ -1,0 +1,28 @@
+{
+  "name": "milasbookingback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "@google-cloud/functions-framework serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-rojas/milasbookingback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-rojas/milasbookingback/issues"
+  },
+  "homepage": "https://github.com/christian-rojas/milasbookingback#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mercadopago": "^2.0.8",
+    "@google-cloud/functions-framework": "^3.0.0"
+  }
+}
